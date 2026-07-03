@@ -33,7 +33,6 @@ const Solution = () => {
   return (
     <div id="solution" className="bg-[#F0EDE6] px-4 py-8">
       <div className="max-w-6xl mx-auto bg-[#1B412A] rounded-3xl px-8 md:px-14 py-14 flex flex-col gap-10">
-        {/* Header */}
         <div className="flex flex-col gap-6 ">
           <span className="inline-flex items-center gap-2 rounded-full bg-white/10 px-3 py-1 text-xs font-semibold uppercase tracking-widest text-white/80 w-fit">
             <span className="w-2 h-2 rounded-full bg-[#B8EE2C]" />
@@ -44,8 +43,6 @@ const Solution = () => {
             certification bodies.
           </h2>
         </div>
-
-        {/* Feature Cards */}
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
           {features.map((item) => (
             <div
@@ -60,8 +57,6 @@ const Solution = () => {
             </div>
           ))}
         </div>
-
-        {/* Footer Note */}
         <p className="text-xs text-white/40 leading-relaxed max-w-xl">
           Workforce Compliance integrates with issuers via APIs, secure database
           connections, managed uploads or recurring structured imports — meeting

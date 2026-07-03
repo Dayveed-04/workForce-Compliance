@@ -11,7 +11,6 @@ const Stats = () => {
   return (
     <div className="bg-[#F0EDE6] px-4 py-8">
       <div className="max-w-6xl mx-auto flex flex-col gap-8">
-        {/* Stats Row */}
         <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
           {stats.map((stat) => (
             <div key={stat.label} className="flex flex-col gap-1">
@@ -24,8 +23,6 @@ const Stats = () => {
             </div>
           ))}
         </div>
-
-        {/* Image with Overlay */}
         <div className="relative rounded-3xl overflow-hidden min-h-[380px]">
           <img
             src={heroBg}
@@ -33,10 +30,8 @@ const Stats = () => {
             className="absolute inset-0 w-full h-full object-cover"
           />
 
-          {/* Overlay */}
           <div className="absolute inset-0 bg-black/30" />
 
-          {/* Bottom Text */}
           <div className="absolute bottom-0 left-0 right-0 p-8 flex items-end justify-between">
             <h3 className="text-2xl sm:text-3xl md:text-4xl font-semibold text-white leading-tight max-w-md">
               Helping high risk industries scale their workforce{" "}
